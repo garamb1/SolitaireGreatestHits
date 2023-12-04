@@ -6,10 +6,14 @@
 	<string>English</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleHelpBookFolder</key>
+	<string>SolitaireHelp</string>
+	<key>CFBundleHelpBookName</key>
+	<string>Solitaire Greatest Hits Help</string>
 	<key>CFBundleIconFile</key>
 	<string>SolitaireIcon</string>
 	<key>CFBundleIdentifier</key>
-	<string>fontaine.Solitaire2</string>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -20,13 +24,11 @@
 	<string>DANF</string>
 	<key>CFBundleVersion</key>
 	<string>2.0</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.puzzle-games</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
-	<key>CFBundleHelpBookFolder</key>
-	<string>SolitaireHelp</string>
-	<key>CFBundleHelpBookName</key>
-	<string>Solitaire Greatest Hits Help</string>
 </dict>
 </plist>

@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 45;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03BE70822B1E300300B1A71E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 03BE70812B1E300300B1A71E /* .gitignore */; };
 		3707C9A61006B81100A497C3 /* SolitaireFortyThievesGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3707C9A51006B81100A497C3 /* SolitaireFortyThievesGame.m */; };
 		3712A865100E1ED00001F6C5 /* RestartIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 3712A864100E1ED00001F6C5 /* RestartIcon.icns */; };
 		3712A874100E21C50001F6C5 /* SaveIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 3712A873100E21C50001F6C5 /* SaveIcon.icns */; };
@@ -59,7 +60,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03BE707F2B1E2DE100B1A71E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03BE70802B1E2DE100B1A71E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		03BE70812B1E300300B1A71E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -124,7 +127,6 @@
 		378CB0EB0E4774F900D95193 /* SolitaireController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SolitaireController.m; sourceTree = "<group>"; };
 		378CB1060E47777600D95193 /* SolitaireKlondikeGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolitaireKlondikeGame.h; sourceTree = "<group>"; };
 		378CB1070E47777600D95193 /* SolitaireKlondikeGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SolitaireKlondikeGame.m; sourceTree = "<group>"; };
-		379CAAA00FD19512009A760B /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		379CAAC50FD1A433009A760B /* UndoIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = UndoIcon.icns; sourceTree = "<group>"; };
 		37AAB744100FF9630003CBE5 /* SolitaireSavedGameImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolitaireSavedGameImage.h; sourceTree = "<group>"; };
 		37AAB745100FF9630003CBE5 /* SolitaireSavedGameImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SolitaireSavedGameImage.m; sourceTree = "<group>"; };
@@ -141,7 +143,7 @@
 		37ECE7091032469F00AF20BB /* SolitaireYukonGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolitaireYukonGame.h; sourceTree = "<group>"; };
 		37ECE70A1032469F00AF20BB /* SolitaireYukonGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SolitaireYukonGame.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8D1107320486CEB800E47090 /* Solitaire Greatest Hits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Solitaire Greatest Hits.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1107320486CEB800E47090 /* Solitaire: Greatest Hits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Solitaire: Greatest Hits.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,7 +205,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D1107320486CEB800E47090 /* Solitaire Greatest Hits.app */,
+				8D1107320486CEB800E47090 /* Solitaire: Greatest Hits.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -211,6 +213,7 @@
 		29B97314FDCFA39411CA2CEA /* Solitaire */ = {
 			isa = PBXGroup;
 			children = (
+				03BE70812B1E300300B1A71E /* .gitignore */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -345,7 +348,7 @@
 			name = Solitaire;
 			productInstallPath = "$(HOME)/Applications";
 			productName = Solitaire;
-			productReference = 8D1107320486CEB800E47090 /* Solitaire Greatest Hits.app */;
+			productReference = 8D1107320486CEB800E47090 /* Solitaire: Greatest Hits.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -353,9 +356,18 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Solitaire" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = en;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+				Base,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* Solitaire */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -381,6 +393,7 @@
 				376C393F100973BF00C653BE /* Reload.png in Resources */,
 				376C398A10097C6500C653BE /* Empty.png in Resources */,
 				37D499CF100BAD2D00591FB8 /* ChooseGame.icns in Resources */,
+				03BE70822B1E300300B1A71E /* .gitignore in Resources */,
 				37DC2DAF100D11E100504D65 /* RedoIcon.icns in Resources */,
 				3712A865100E1ED00001F6C5 /* RestartIcon.icns in Resources */,
 				3712A874100E21C50001F6C5 /* SaveIcon.icns in Resources */,
@@ -436,7 +449,7 @@
 		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				089C165DFE840E0CC02AAC07 /* English */,
+				03BE707F2B1E2DE100B1A71E /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -444,7 +457,7 @@
 		379CAA9F0FD19512009A760B /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				379CAAA00FD19512009A760B /* English */,
+				03BE70802B1E2DE100B1A71E /* en */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -455,16 +468,20 @@
 		C01FCF4B08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_ENABLE_OBJC_GC = required;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Solitaire_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.puzzle-games";
 				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fontaine.Solitaire2;
 				PRODUCT_NAME = "Solitaire: Greatest Hits";
 				WRAPPER_EXTENSION = app;
 				ZERO_LINK = YES;
@@ -474,13 +491,19 @@
 		C01FCF4C08A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Solitaire_Prefix.pch;
-				GCC_VERSION = 4.2;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.puzzle-games";
 				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fontaine.Solitaire2;
 				PRODUCT_NAME = "Solitaire Greatest Hits";
 				WRAPPER_EXTENSION = app;
 			};
@@ -489,26 +512,28 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				PREBINDING = NO;
-				SDKROOT = macosx10.5;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					ppc,
-					i386,
-				);
-				GCC_ENABLE_OBJC_GC = required;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				PREBINDING = NO;
-				SDKROOT = macosx10.5;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
