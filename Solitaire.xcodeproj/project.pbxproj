@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		03BE70822B1E300300B1A71E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 03BE70812B1E300300B1A71E /* .gitignore */; };
+		03BE70842B1E310A00B1A71E /* COPYING in Resources */ = {isa = PBXBuildFile; fileRef = 03BE70832B1E310A00B1A71E /* COPYING */; };
 		3707C9A61006B81100A497C3 /* SolitaireFortyThievesGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3707C9A51006B81100A497C3 /* SolitaireFortyThievesGame.m */; };
 		3712A865100E1ED00001F6C5 /* RestartIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 3712A864100E1ED00001F6C5 /* RestartIcon.icns */; };
 		3712A874100E21C50001F6C5 /* SaveIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 3712A873100E21C50001F6C5 /* SaveIcon.icns */; };
@@ -63,6 +64,8 @@
 		03BE707F2B1E2DE100B1A71E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		03BE70802B1E2DE100B1A71E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		03BE70812B1E300300B1A71E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		03BE70832B1E310A00B1A71E /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = COPYING; path = ../../Downloads/COPYING; sourceTree = "<group>"; };
+		03BE70852B1E311F00B1A71E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -213,6 +216,8 @@
 		29B97314FDCFA39411CA2CEA /* Solitaire */ = {
 			isa = PBXGroup;
 			children = (
+				03BE70832B1E310A00B1A71E /* COPYING */,
+				03BE70852B1E311F00B1A71E /* README.md */,
 				03BE70812B1E300300B1A71E /* .gitignore */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -384,6 +389,7 @@
 			files = (
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				376BFD680E4573D6008B5923 /* SolitaireCardBack.png in Resources */,
+				03BE70842B1E310A00B1A71E /* COPYING in Resources */,
 				376BFD690E4573D6008B5923 /* SolitaireCards.png in Resources */,
 				379CAAA10FD19512009A760B /* MainMenu.xib in Resources */,
 				379CAAC60FD1A433009A760B /* UndoIcon.icns in Resources */,
